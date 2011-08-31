@@ -1,4 +1,5 @@
 "my section
+set t_Co=256
 colorscheme ir_black
 set nobackup
 set ts=4 sts=4 sw=4 expandtab
@@ -24,11 +25,6 @@ else
   endif
 endif
 "End my section
-
-set nocompatible
-source $VIMRUNTIME/vimrc_example.vim
-source $VIMRUNTIME/mswin.vim
-behave mswin
 
 set diffexpr=MyDiff()
 function MyDiff()
