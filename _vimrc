@@ -4,6 +4,9 @@ colorscheme ir_black
 set nobackup
 set ts=4 sts=4 sw=4 expandtab
 set listchars=tab:\|_,eol:¬
+set cindent
+set smartindent
+set autoindent
 set backup
 set backupdir=~/VIM/backup
 set directory=~/VIM/swapbackup
