@@ -61,14 +61,14 @@ if !has('gui') || exists('g:CSApprox_loaded')
     let s:verbose  = g:CSApprox_verbose_level
   endif
 
-  if ! has('gui') && s:verbose > 0
-    echomsg "CSApprox needs gui support - not loading."
-    echomsg "  See :help |csapprox-+gui| for possible workarounds."
-  endif
+" if ! has('gui') && s:verbose > 0
+"   echomsg "CSApprox needs gui support - not loading."
+"   echomsg "  See :help |csapprox-+gui| for possible workarounds."
+" endif
 
   unlet s:verbose
 
-  finish
+" finish
 endif
 
 " {1} Mark us as loaded, and disable all compatibility options for now.
