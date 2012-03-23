@@ -1,1 +1,11 @@
 This is my personal vim configuration. I've only been using vim for a few months so it is very basic.
+
+To set this up on a linux box:
+$ cd ~/
+$ mkdir VIM
+$ ln VIM/vimrc/_vimrc .vimrc
+$ ln -s VIM/vimrc/vimfiles .vim
+$ cd VIM
+$ mkdir backup
+$ mkdir swapbackup
+$ mkdir viewbackup
